@@ -1,0 +1,8 @@
+
+sources:
+  - name: jaffle_shop
+    database: hive_metastore
+    schema: default
+    tables:
+      - name: customers
+      - name: orders
